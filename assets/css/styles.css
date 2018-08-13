@@ -1,0 +1,138 @@
+.form-control {
+  border-radius:initial;
+}
+
+.btn {
+  border-radius:none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  border-radius:inherit;
+}
+
+.img-fluid.d-block {
+  height:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#bg {
+  height:80%;
+  width:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:relative;
+  min-height:488px;
+}
+
+.footer-basic {
+  height:100%;
+  background-position:center;
+  background-size:cover;
+}
+
+#topinfobar {
+  width:100%;
+  display:block;
+  height:40px;
+  position:fixed;
+  z-index:1;
+  visibility:hidden;
+  border-top:1px black solid;
+}
+
+#infobartext {
+  padding:10px;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  text-align:center;
+}
+
+#centerText {
+  width:50%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  vertical-align:middle;
+}
+
+#centertextspan {
+}
+
+#nav-img {
+  background-image:url(assets/img/bws-logo.png);
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
+#nav-img-item {
+  background-color:white;
+  padding-top:10px;
+}
+
+#topnavbar {
+  width:100%;
+  height:70px;
+  background-color:#FF8C00;
+  border-bottom:1px solid black;
+}
+
+#topnavbar-item {
+  height:inherit;
+}
+
+#topnavbaritem-img {
+  background-repeat:no-repeat;
+}
+
+#topnavbar-item {
+  text-align:center;
+}
+
+#headerlink {
+  color:white;
+}
+
+#headerlink:hover {
+  color:black;
+}
+
+#headerlink:clicked {
+  color:black;
+}
+
+#profile-left {
+  text-align:center;
+}
+
+#profile-name {
+  text-align:center;
+}
+
+#profile-name {
+  text-align:center;
+}
+
+#profile-name {
+  text-align:center;
+}
+
+#profile-store {
+  text-align:center;
+}
+
+#heading-careerobjs {
+  text-align:center;
+}
+
+.d-inline-block {
+}
+
+#right-side {
+  border-left:1.5px solid black;
+}
+
